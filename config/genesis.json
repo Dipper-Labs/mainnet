@@ -49,7 +49,7 @@
       "fee_pool": {
         "community_pool": []
       },
-      "community_tax": "0.010000000000000000",
+      "community_tax": "0.020000000000000000",
       "base_proposer_reward": "0.010000000000000000",
       "bonus_proposer_reward": "0.040000000000000000",
       "withdraw_addr_enabled": true,
@@ -71,7 +71,7 @@
         "min_deposit": [
           {
             "denom": "pdip",
-            "amount": "10000000000000"
+            "amount": "2000000000000000"
           }
         ],
         "max_deposit_period": "86400000000000"
