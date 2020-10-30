@@ -1,0 +1,805 @@
+{
+  "genesis_time": "2020-10-30T03:38:56.00169Z",
+  "chain_id": "dipperhub",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "2097152",
+      "max_gas": "1000000000",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "bank": {
+      "send_enabled": true
+    },
+    "auth": {
+      "params": {
+        "gas_price_threshold": "6000000",
+        "max_memo_characters": "256",
+        "tx_sig_limit": "10",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "upgrade": {
+      "genesis_version": {
+        "upgrade_info": {
+          "proposal_id": 0,
+          "protocol": {
+            "version": 0,
+            "software": "https://github.com/Dipper-Labs/Dipper-Protocol/releases/tag/v1.0.0",
+            "height": 1,
+            "threshold": "0.900000000000000000"
+          }
+        },
+        "success": true
+      }
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.010000000000000000",
+      "base_proposer_reward": "0.010000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "pdip",
+            "amount": "10000000000000"
+          }
+        ],
+        "max_deposit_period": "86400000000000"
+      },
+      "voting_params": {
+        "voting_period": "432000000000000"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto": "0.334000000000000000"
+      }
+    },
+    "vm": {
+      "params": {
+        "max_code_size": "1048576",
+        "max_call_create_depth": "1024",
+        "vm_op_gas_params": [
+          "0",
+          "3",
+          "5",
+          "3",
+          "5",
+          "5",
+          "5",
+          "5",
+          "8",
+          "8",
+          "0",
+          "5",
+          "0",
+          "0",
+          "0",
+          "0",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "0",
+          "0",
+          "30",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "2",
+          "700",
+          "2",
+          "2",
+          "2",
+          "3",
+          "2",
+          "3",
+          "2",
+          "3",
+          "2",
+          "700",
+          "700",
+          "2",
+          "3",
+          "700",
+          "20",
+          "2",
+          "2",
+          "2",
+          "0",
+          "2",
+          "2",
+          "5",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "2",
+          "3",
+          "3",
+          "3",
+          "800",
+          "0",
+          "8",
+          "10",
+          "2",
+          "2",
+          "2",
+          "1",
+          "0",
+          "0",
+          "0",
+          "0",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "3",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "32000",
+          "700",
+          "700",
+          "0",
+          "700",
+          "32000",
+          "0",
+          "0",
+          "0",
+          "0",
+          "700",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "vm_contract_creation_gas_params": {
+          "gas": "53000",
+          "gas_per_byte": "200"
+        }
+      },
+      "storage": [],
+      "codes": {},
+      "vm_logs": {
+        "logs": {},
+        "log_index": "0"
+      }
+    },
+    "guardian": {
+      "profilers": [
+        {
+          "description": "foundation",
+          "type": "Genesis",
+          "address": "dip1k2zqel4akv6cm23ks8cj25epusv9d5xzttmqfg",
+          "added_by": "dip1k2zqel4akv6cm23ks8cj25epusv9d5xzttmqfg"
+        }
+      ]
+    },
+    "staking": {
+      "params": {
+        "next_extending_time": "2021-10-30T09:38:56.001352Z",
+        "bond_denom": "pdip",
+        "unbonding_time": "1209600000000000",
+        "max_lever": "20.000000000000000000",
+        "max_validators": 100,
+        "max_validators_extending_limit": 300,
+        "max_validators_extending_speed": 10,
+        "max_entries": 7
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "exported": false
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "86400000000000",
+        "signed_blocks_window": "34560",
+        "min_signed_per_window": "0.700000000000000000",
+        "downtime_jail_duration": "129600000000000",
+        "slash_fraction_double_sign": "0.010000000000000000",
+        "slash_fraction_downtime": "0.000300000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "supply": {
+      "supply": []
+    },
+    "params": null,
+    "mint": {
+      "minter": {
+        "inflation": "0.040000000000000000",
+        "annual_provisions": "0.000000000000000000",
+        "current_provisions": "0.000000000000000000"
+      },
+      "params": {
+        "mint_denom": "pdip",
+        "inflation_rate_change": "0.060000000000000000",
+        "inflation_max": "0.100000000000000000",
+        "inflation_min": "0.040000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520",
+        "max_provisions": "350000000000000000000.000000000000000000"
+      }
+    },
+    "accounts": [
+      {
+        "address": "dip1yacfmtkk46qlgz03v4d9dlml7jdtfxsyhcvws0",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "160000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip1gh36wqvp8lw980wetptw55g78lj0ywutrmvzj8",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "150000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip13fp2e9rrwjwq90g2gc7jkwc3r59w7fcvufsmtz",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "50000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip1k2zqel4akv6cm23ks8cj25epusv9d5xzttmqfg",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "180000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip1438vwgenzj6nx938jdld3p6ch2p2ej68h0u60d",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "1900000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip1kd3wpe3d3mmhz0hzse7qx3dhfgufexvyrul3cx",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "1900000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip14v0agu7c7mf9ydvveggaj6l07sr90qnz4vgfk9",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "1900000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip1s2udthlxmrctpha244lfdev7nu3jurnq2rgs74",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "1900000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      },
+      {
+        "address": "dip1zmgrcsrlhp8lvc2p03a65sxvm4xanzppe2qk98",
+        "coins": [
+          {
+            "denom": "pdip",
+            "amount": "102400000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "account_number": "0",
+        "original_vesting": [],
+        "delegated_free": [],
+        "delegated_vesting": [],
+        "start_time": "0",
+        "end_time": "0",
+        "module_name": "",
+        "module_permissions": [
+          ""
+        ],
+        "code_hash": null
+      }
+    ],
+    "crisis": {
+      "constant_fee": {
+        "denom": "pdip",
+        "amount": "1000"
+      }
+    },
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "dip/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "dip/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "aquarius",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.100000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "dip1kd3wpe3d3mmhz0hzse7qx3dhfgufexvyrul3cx",
+                  "validator_address": "dipvaloper1kd3wpe3d3mmhz0hzse7qx3dhfgufexvypsh5uv",
+                  "pubkey": "dipvalconspub1zcjduepqnut8jtexu6unn558ks263ztk5l2fkec4ryc0gkw0e4wr544hurmqq3rkmw",
+                  "value": {
+                    "denom": "pdip",
+                    "amount": "1880000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A8UNL/9+YYS5nJUvE30B/K53or7MWzfV+NVxlvGM4Mho"
+                },
+                "signature": "WLaWYVb6bZPwYwRYx5MiN6VVNcgrMI+aexLjFhsL2yMscRRavyZJS5/vJ58PBUP/Ag+o1TvOWHDCXAkY0pgkKw=="
+              }
+            ],
+            "memo": "5dd62f464b44a7af5ade58c02ed086bab1d26b8f@10.152.0.2:26656"
+          }
+        },
+        {
+          "type": "dip/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "dip/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "gemini",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.100000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "dip14v0agu7c7mf9ydvveggaj6l07sr90qnz4vgfk9",
+                  "validator_address": "dipvaloper14v0agu7c7mf9ydvveggaj6l07sr90qnzhqqvj0",
+                  "pubkey": "dipvalconspub1zcjduepqkld0xp5h7y4kvyqqpan9xrlpu4va5adqn9lems6n3f2wwqvnakpqsglu4t",
+                  "value": {
+                    "denom": "pdip",
+                    "amount": "1880000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "Av3/xCBiHCz7gKiakyIt/qI6AdsXAPbbLBZVsCzX6U5x"
+                },
+                "signature": "TQhiBUT6lfkfpbx5zVUS4CQR/e4I/5ckbEZDXuYwiXFLjwwujM5GCs5zqfoCC0iiVWY/tXdys1qhxhgmps4wLg=="
+              }
+            ],
+            "memo": "8fb39ba14b908a8668ca7de41e43a8bc02964cde@10.140.0.2:26656"
+          }
+        },
+        {
+          "type": "dip/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "dip/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "aries",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.100000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "dip1s2udthlxmrctpha244lfdev7nu3jurnq2rgs74",
+                  "validator_address": "dipvaloper1s2udthlxmrctpha244lfdev7nu3jurnqg0q46l",
+                  "pubkey": "dipvalconspub1zcjduepqz9j2gj06tmaensk6zk4macxpjjrjlfydsr2hpsmvldljey580pyq9wkl5q",
+                  "value": {
+                    "denom": "pdip",
+                    "amount": "1880000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AxisHHnlHmuCJCsY1HAHfphqS0GEaeVOv4EOt967B4cz"
+                },
+                "signature": "NAQ89BSQmedYZtvqKCwkSQLkC4xu8/B5m1a91sTQmVwnl640neICexdNmQjhpXy6CWd025rlx8cHF+TGgoA8kw=="
+              }
+            ],
+            "memo": "ad563e804b42a6e32861a93d7cbe6204d41d8260@10.172.0.2:26656"
+          }
+        },
+        {
+          "type": "dip/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "dip/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "libra",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.100000000000000000",
+                    "max_rate": "0.200000000000000000",
+                    "max_change_rate": "0.100000000000000000"
+                  },
+                  "min_self_delegation": "1",
+                  "delegator_address": "dip1438vwgenzj6nx938jdld3p6ch2p2ej68h0u60d",
+                  "validator_address": "dipvaloper1438vwgenzj6nx938jdld3p6ch2p2ej684r5lt8",
+                  "pubkey": "dipvalconspub1zcjduepq2z7pmcuzg3ph0vjjesx25a75vjk8p0thnsv8q0glj2gszkqv3wuqupkfmv",
+                  "value": {
+                    "denom": "pdip",
+                    "amount": "1880000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "200000"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AocSurV5E3I5QwknYFDnPNzLZWes9AJ9NxzF6DDIBTzj"
+                },
+                "signature": "6zQwoJDPtzfiD0LIZrMnzl7gqznTymUIdFXjgx9+RQFK6X+loQtV3F+0D9jyj/cpUy2kIm2TEgy/kLlZYobw4g=="
+              }
+            ],
+            "memo": "f89bffaedd0d2f0a66ff3af5ade6c8927e75526a@10.168.0.3:26656"
+          }
+        }
+      ]
+    }
+  }
+}
