@@ -165,10 +165,11 @@ laddr = "tcp://0.0.0.0:26656"
 external_address = ""
 
 # Comma separated list of seed nodes to connect to
-seeds = ""
+seeds = "6ba7b15b84c7e8b7d6fa03b3106f596d06aca4da@35.230.43.107:26656"
 
 # Comma separated list of nodes to keep persistent connections to
-persistent_peers = "5dd62f464b44a7af5ade58c02ed086bab1d26b8f@35.244.122.35:26656,8fb39ba14b908a8668ca7de41e43a8bc02964cde@35.189.189.192:26656,ad563e804b42a6e32861a93d7cbe6204d41d8260@34.65.129.219:26656,f89bffaedd0d2f0a66ff3af5ade6c8927e75526a@34.94.6.27:26656"
+#persistent_peers = "5dd62f464b44a7af5ade58c02ed086bab1d26b8f@35.244.122.35:26656,8fb39ba14b908a8668ca7de41e43a8bc02964cde@35.189.189.192:26656,ad563e804b42a6e32861a93d7cbe6204d41d8260@34.65.129.219:26656,f89bffaedd0d2f0a66ff3af5ade6c8927e75526a@34.94.6.27:26656"
+persistent_peers = "5dd62f464b44a7af5ade58c02ed086bab1d26b8f@35.189.0.149:26656,8fb39ba14b908a8668ca7de41e43a8bc02964cde@34.80.37.84:26656,ad563e804b42a6e32861a93d7cbe6204d41d8260@34.65.167.168:26656,f89bffaedd0d2f0a66ff3af5ade6c8927e75526a@35.236.33.232:26656"
 
 # UPNP port forwarding
 upnp = false
@@ -313,7 +314,7 @@ prometheus_listen_addr = ":26660"
 # If you want to accept a larger number than the default, make sure
 # you increase your OS limits.
 # 0 - unlimited.
-max_open_connections = 3
+max_open_connections = 100
 
 # Instrumentation namespace
 namespace = "tendermint"
